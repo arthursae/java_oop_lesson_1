@@ -6,6 +6,11 @@ public abstract class Animal {
 
     public Animal(String name, String color, String kind, String type, Double weight, Double age) {
         this.name = name;
+        this.color = color;
+        this.kind = kind;
+        this.type = type;
+        this.weight = weight;
+        this.age = age;
 
     }
 
@@ -80,10 +85,10 @@ public abstract class Animal {
     @Override
     public String toString() {
         return "Animal{" +
-                "name='" + name + '\'' +
-                ", color='" + color + '\'' +
-                ", kind='" + kind + '\'' +
-                ", type='" + type + '\'' +
+                "name='" + this.name + '\'' +
+                ", color='" + this.color + '\'' +
+                ", kind='" + this.kind + '\'' +
+                ", type='" + this.type + '\'' +
                 ", weight=" + weight +
                 ", age=" + age +
                 '}';
