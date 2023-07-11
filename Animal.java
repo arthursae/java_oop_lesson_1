@@ -84,14 +84,12 @@ public abstract class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "name='" + this.name + '\'' +
-                ", color='" + this.color + '\'' +
-                ", kind='" + this.kind + '\'' +
-                ", type='" + this.type + '\'' +
-                ", weight=" + weight +
-                ", age=" + age +
-                '}';
+        return "Animal: " + this.type + '\n' +
+                "Name: " + this.name + '\n' +
+                "Color: " + this.color + '\n' +
+                "Kind: " + this.kind + '\n' +
+                "Weight: " + weight + " Kg " + '\n' +
+                "Age: " + age + " years \n";
     }
 
     public abstract void makeSound();
