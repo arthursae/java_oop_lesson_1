@@ -15,13 +15,15 @@ public class Main {
         myPets.addAnimal(parrot);
 
         Random r = new Random();
-        int minFood = 1, maxFood = 10, minWater = 1, maxWater = 5;
+        int minFood = 1, maxFood = 10, minWater = 1, maxWater = 5, maxDistance = 1000, minutes = 600;
 
         for (Animal pet : myPets.getAnimalsList()) {
             System.out.println("Animal: " + pet.getType());
             System.out.println("Name: " + pet.getName());
             pet.eat(r.nextInt(minFood, maxFood));
             pet.drink(r.nextInt(minWater, maxWater));
+            pet.move(r.nextInt(0, maxDistance));
+            pet.sleep(r.nextInt(0, minutes));
             pet.makeSound();
             System.out.printf("%n");
         }
