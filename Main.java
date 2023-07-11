@@ -6,7 +6,7 @@ public class Main {
         Animal cat = new Cat("Audrey", "Black", "Sphynx", "Cat", 2.13, 6.2);
         Animal dog = new Dog("Bruno", "Golden", "Labrador", "Dog", 18.55, 5.8);
         Animal hamster = new Hamster("Charlie", "White", "Hamster", "Hamster", 0.11, 0.5);
-        Animal parrot = new Parrot("Dexter", "Red Blue", "Australian", "Parrot", 0.23, 3.4);
+        Animal parrot = new Parrot("Dexter", "Red Blue", "Cockatiel", "Parrot", 0.23, 3.4);
 
         Pets myPets = new Pets();
         myPets.addAnimal(cat);
