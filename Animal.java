@@ -75,11 +75,11 @@ public abstract class Animal {
     }
 
     public void move(int distance) {
-        System.out.println("Moved to a distance: " + distance);
+        System.out.println("Moved to a distance: " + distance + " meters");
     }
 
     public void sleep(int minutes) {
-        System.out.println("Has slept for " + minutes);
+        System.out.println("Has slept for " + minutes + " minutes");
     }
 
     @Override
