@@ -74,7 +74,7 @@ public abstract class Animal {
     }
 
     public void sleep(int minutes) {
-        System.out.println("Has slept for " + " minutes");
+        System.out.println("Has slept for " + minutes);
     }
 
     @Override
