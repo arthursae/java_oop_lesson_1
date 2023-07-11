@@ -89,7 +89,7 @@ public abstract class Animal {
                 "Color: " + this.color + '\n' +
                 "Kind: " + this.kind + '\n' +
                 "Weight: " + weight + " Kg " + '\n' +
-                "Age: " + age + " years \n";
+                "Age: " + age + " years";
     }
 
     public abstract void makeSound();
